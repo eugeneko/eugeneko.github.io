@@ -18,7 +18,7 @@
       } else {
         throw 'using preloaded data can only be done on a web page or in a web worker';
       }
-      var PACKAGE_NAME = 'D:/Root/Repos/Urho/rbfx-software-skinning-web/bin/Resources.js.data';
+      var PACKAGE_NAME = 'D:/Root/Repos/Urho/rbfx-renderer-master-web/bin/Resources.js.data';
       var REMOTE_PACKAGE_BASE = 'Resources.js.data';
       if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
         Module['locateFile'] = Module['locateFilePackage'];
@@ -291,10 +291,10 @@
             for (var i = 0; i < files.length; ++i) {
               DataRequest.prototype.requests[files[i].filename].onload();
             }
-                Module['removeRunDependency']('datafile_D:/Root/Repos/Urho/rbfx-software-skinning-web/bin/Resources.js.data');
+                Module['removeRunDependency']('datafile_D:/Root/Repos/Urho/rbfx-renderer-master-web/bin/Resources.js.data');
 
       };
-      Module['addRunDependency']('datafile_D:/Root/Repos/Urho/rbfx-software-skinning-web/bin/Resources.js.data');
+      Module['addRunDependency']('datafile_D:/Root/Repos/Urho/rbfx-renderer-master-web/bin/Resources.js.data');
     
       if (!Module.preloadResults) Module.preloadResults = {};
     
@@ -338,7 +338,7 @@
     }
   
    }
-   loadPackage({"files": [{"start": 0, "audio": 0, "end": 16874514, "filename": "/Data.pak"}, {"start": 16874514, "audio": 0, "end": 17585137, "filename": "/CoreData.pak"}, {"start": 17585137, "audio": 0, "end": 51604090, "filename": "/Autoload/LargeData.pak"}], "remote_package_size": 51604090, "package_uuid": "f26b9409-a838-46cf-92be-988fdb89fc9c"});
+   loadPackage({"files": [{"start": 0, "audio": 0, "end": 18136369, "filename": "/Data.pak"}, {"start": 18136369, "audio": 0, "end": 18930876, "filename": "/CoreData.pak"}, {"start": 18930876, "audio": 0, "end": 52949829, "filename": "/Autoload/LargeData.pak"}], "remote_package_size": 52949829, "package_uuid": "60400b12-6901-46b7-84d6-1c1399db06bd"});
   
   })();
   
